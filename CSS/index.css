@@ -30,7 +30,7 @@ nav {
     margin-right: 20px;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     list-style: none;
 }
@@ -44,7 +44,7 @@ nav {
     color: white;
 }
 
-header{
+header {
     background-color: lightcoral;
     height: 600px;
     display: flex;
@@ -65,3 +65,62 @@ header{
     font-size: 20px;
     color: white;
 }
+
+.section-template {
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    grid-template-rows: 40% 60%;
+    height: 500px;
+    grid-template-areas: "p we ed"
+                        "p ow ed";
+}
+
+h2{
+    padding: 20px;
+}
+
+h3, p{
+    padding: 10px 20px 10px 20px;
+}
+
+ul {
+    padding: 10px 20px 10px 20px;
+    list-style: none;
+}
+
+.projects {
+    grid-area: p;
+    background-color: lightgreen;
+}
+
+.projects-box{
+    border-bottom: 1px solid black;
+}
+
+.projects-box:last-child{
+    border-bottom: none;
+}
+
+.work-experience {
+    grid-area: we;
+    background-color: lightseagreen;
+}
+
+.opensource-work{
+    grid-area: ow;
+    background-color: lightpink;
+}
+
+.education{
+    grid-area: ed;
+    background-color: lightskyblue;
+}
+
+/*
+.review-card-grid{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 300px;
+    gap: 20px;
+}
+*/
