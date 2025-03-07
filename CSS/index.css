@@ -72,14 +72,15 @@ header {
     grid-template-rows: 40% 60%;
     height: 500px;
     grid-template-areas: "p we ed"
-                        "p ow ed";
+        "p ow ed";
 }
 
-h2{
+h2 {
     padding: 20px;
 }
 
-h3, p{
+h3,
+p {
     padding: 10px 20px 10px 20px;
 }
 
@@ -93,11 +94,11 @@ ul {
     background-color: lightgreen;
 }
 
-.projects-box{
+.projects-box {
     border-bottom: 1px solid black;
 }
 
-.projects-box:last-child{
+.projects-box:last-child {
     border-bottom: none;
 }
 
@@ -106,21 +107,54 @@ ul {
     background-color: lightseagreen;
 }
 
-.opensource-work{
+.opensource-work {
     grid-area: ow;
     background-color: lightpink;
 }
 
-.education{
+.education {
     grid-area: ed;
     background-color: lightskyblue;
 }
 
-/*
-.review-card-grid{
+.reviews {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 67px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-title{
+    align-self: flex-start;
+}
+
+.reviews-card-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 300px;
-    gap: 20px;
+    grid-auto-columns: 400px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-*/
+
+.reviews-card{
+    padding: 30px;
+    border-radius: 60px;
+    border: 2px solid black;
+    background-color: azure;
+    height: 300px;
+    width: 100%;
+    
+}
+
