@@ -1,0 +1,12 @@
+.section-template {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    height: 500px;
+    grid-template-areas: "p  c";
+}
+
+.content{
+    background-color: lightseagreen;
+    grid-area: c;
+}
