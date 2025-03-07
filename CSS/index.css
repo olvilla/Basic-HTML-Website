@@ -43,3 +43,25 @@ nav {
     text-decoration: none;
     color: white;
 }
+
+header{
+    background-color: lightcoral;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-info {
+    text-align: center;
+}
+
+.header-info h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.header-info p {
+    font-size: 20px;
+    color: white;
+}
